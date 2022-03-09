@@ -31,4 +31,13 @@ public class StepDefenition extends BaseClass{
 		System.out.println("New GIT project Successfully Completed");
 	}
 
+		public void newmethod() {
+			System.out.println("New one Created");
+
+		}
+		
+		private void finallone() {
+			System.out.println("Finally");
+
+		}
 }
