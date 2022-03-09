@@ -28,7 +28,7 @@ public class StepDefenition extends BaseClass{
 	@Then("User verify the Login page Displayed")
 	public void user_verify_the_Login_page_Displayed() {
 	   System.out.println("Output came");
-		
+		System.out.println("New GIT project Successfully Completed");
 	}
 
 }
