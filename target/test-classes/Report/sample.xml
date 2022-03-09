@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.404019">
+<testcase classname="Verifing the Adactin login page" name="Validation of Adactin login page" time="22.404019">
+<system-out><![CDATA[Given User Launch the Adactin Web browser...................................passed
+When User Enter the Valid "digitalindia" and "987654321" And Click login button.passed
+Then User verify the Login page Displayed...................................passed
+]]></system-out>
+</testcase>
+</testsuite>

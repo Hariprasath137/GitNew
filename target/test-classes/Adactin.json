@@ -1,0 +1,79 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21688348500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Launch the Adactin Web browser",
+            "match": {
+              "location": "StepDefenition.user_Launch_the_Adactin_Web_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-07T14:59:41.275Z",
+        "line": 12,
+        "name": "Validation of Adactin login page",
+        "description": "",
+        "id": "verifing-the-adactin-login-page;validation-of-adactin-login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 660289000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enter the Valid \"digitalindia\" and \"987654321\" And Click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"digitalindia\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"987654321\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefenition.user_Enter_the_Valid_and_And_Click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 608900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User verify the Login page Displayed",
+            "match": {
+              "location": "StepDefenition.user_verify_the_Login_page_Displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifing the Adactin login page",
+    "description": "",
+    "id": "verifing-the-adactin-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Adactin.feature",
+    "tags": []
+  }
+]
