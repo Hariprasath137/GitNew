@@ -36,7 +36,7 @@ public class StepDefenition extends BaseClass{
 
 		}
 		
-		private void finallone() {
+		public void finallone() {
 			System.out.println("Finally");
 
 		}
